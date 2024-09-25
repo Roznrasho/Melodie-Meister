@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+
+  header {
+    width: 100%;
+    height: 100px;
+    padding: 0 3%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1b262c;
+    color: #acc3d1;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 45%;
+
+    .header-title {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      font-family: "roboto", sans-serif;
+      font-size: large;
+
+      .fa-solid {
+        color: #acc3d1;
+        font-size: 40px;
+      }
+    }
+    .header-nav {
+      display: flex;
+      align-items: center;
+
+      nav ul {
+        display: flex;
+        gap: 40px;
+        text-decoration: none;
+        a {
+          text-decoration: none;
+          li {
+            color: #acc3d1;
+            list-style: none;
+            font-family: "Robot", sans-serif;
+            font-size: 1.4em;
+          }
+        }
+      }
+
+      .fa-solid {
+        color: #acc3d1;
+        margin-left: 40px;
+        font-size: 1.3em;
+      }
+
+      .fa-solid:hover,
+      li:hover {
+        color: white;
+      }
+    }
+  }
+}
