@@ -112,41 +112,43 @@ body {
       justify-content: center;
       gap: 30px;
 
-      .card-1,
-      .card-2,
-      .card-3,
-      .card-4 {
-        height: 600px;
-        width: 400px;
-        border: 1px solid black;
-        display: flex;
-        justify-content: center;
-        align-items: end;
+      .container-1-box {
+        .card-1,
+        .card-2,
+        .card-3,
+        .card-4 {
+          height: 600px;
+          width: 400px;
+          border: 1px solid black;
+          display: flex;
+          justify-content: center;
+          align-items: end;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
 
-        button {
-          margin-bottom: 15px;
+          button {
+            margin-bottom: 15px;
+          }
         }
-      }
-      /* 
-      .card-2 {
-        height: 500px;
-        width: 400px;
-        border: 1px solid black;
-      }
-      .card-3 {
-        height: 500px;
-        width: 400px;
-        border: 1px solid black;
-      }
-      .card-4 {
-        height: 500px;
-        width: 400px;
-        border: 1px solid black;
-      } */
-      .box-card {
-        height: 20%;
-        width: 400px;
-        margin-top: 10px;
+
+        .card-box {
+          height: 20%;
+          width: 400px;
+          margin-top: 10px;
+        }
+        .card-1 {
+          background-image: url(./image/kavier.jpg);
+        }
+        .card-2 {
+          background-image: url(./image/gitarre.png);
+        }
+        .card-3 {
+          background-image: url(./image/violine.jpg);
+        }
+        .card-4 {
+          background-image: url(./image/saxophone.jpg);
+        }
       }
     }
   }
