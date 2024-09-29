@@ -222,7 +222,13 @@ body {
         0 6px 20px 0 rgba(0, 0, 0, 0.30);
         }
       }
-    
+      .container-3 {
+        height: 60vh;
+        margin-top: -3%;
+        background-image: url(./image/background-violine.jpg);
+        background-size: cover;
+      
+      }
     }
   }
 }
