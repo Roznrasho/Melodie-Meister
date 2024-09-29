@@ -260,7 +260,12 @@ body {
         margin:  0 auto;
       }
       .contact-card {
-        border: 1px solid black;
+        width:1000px;
+        height: 500px;
+        background-color: #F9F9F9;
+        padding: 30px;
+        border-radius: 20px;
+        margin-top: -250px;
       }
     }
   }
