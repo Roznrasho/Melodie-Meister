@@ -226,8 +226,16 @@ body {
         height: 60vh;
         margin-top: -3%;
         background-image: url(./image/background-violine.jpg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        font-size: xx-large;
+        line-height: 2;
         background-size: cover;
-      
+        background-attachment: fixed;
+        overflow: hidden;
       }
     }
   }
