@@ -124,8 +124,15 @@ body {
           border-top-right-radius: 10px;
           button {
             margin-bottom: 15px;
+            padding: 4px 20px;
+            border-radius: 10px;
+            color: white;
+            background-color: black;
+            border-style: none;
+            visibility: hidden;
+            opacity: 0;
+            transition: visibility 0s, opacity 0.3s ease-in-out;
           }
-         
         }
         .card-box {
           height: 100px;
@@ -154,6 +161,10 @@ body {
           margin-left: 5%;
           padding: 2%;
         }
+      }
+      .container-1-box:hover form button {
+        visibility: visible;
+        opacity: 1;
       }
     }
     .container-2 {
