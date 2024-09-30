@@ -174,7 +174,7 @@ body {
       align-items: center;
       justify-content: center;
       gap: 30px;
-      /* margin: 3% 0; */
+      margin: 3% 0;
       box-shadow: 3px 5px 20px 5px rgb(173, 165, 165) inset;
       .box-1 {
         width: 50%;
@@ -335,7 +335,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #F1F1F1;
+    background-color: #f1f1f1;
     margin-top: 80px;
     font-size: small;
   }
