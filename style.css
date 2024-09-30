@@ -75,7 +75,7 @@ body {
         }
       }
       .home-title {
-        background-color: #cee7f0;
+        background-color: #78C0F0;
         height: 100%;
         padding: 20%;
         display: flex;
@@ -156,10 +156,11 @@ body {
           background-image: url(./image/saxophone.jpg);
         }
         .preis {
-          color: #78c0f0;
+          color: #34a3ec;
           margin-top: 50px;
           margin-left: 5%;
           padding: 2%;
+          font-size: 1.2em;
         }
       }
       .container-1-box:hover form button {
