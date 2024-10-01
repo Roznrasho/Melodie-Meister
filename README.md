@@ -24,5 +24,5 @@ Melodie Meister ist eine moderne, responsive Website, die das Einkaufserlebnis f
 - **unsplash**:zum Herunterladen von Projektbildern.
 
 ### Klonen des Repositories:
-- git clone (https://github.com/DeinBenutzername/MelodieMeister.git)
+- git clone (https://github.com/Roznrasho/Melodie-Meister.git)
 - Nach dem Klonen kannst du die Datei index.html einfach in einem Browser öffnen, um die Website lokal anzusehen.
